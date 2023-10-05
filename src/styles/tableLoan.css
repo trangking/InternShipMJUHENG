@@ -1,0 +1,215 @@
+.controltable .css-dwuj3p-MuiTableCell-root {
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #2a693c;
+  border-bottom: 1px solid #515151;
+  border-top: 1px solid #515151;
+  border-left: 1px solid #515151;
+  color: #fff;
+  text-align: center;
+  font-family: 'Anuphan', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.controltablecell .css-1yhpg23-MuiTableCell-root {
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  text-align: center;
+  padding: 16px;
+  border: 1px solid #5b5b5b;
+  background: rgba(255, 255, 255, 0);
+  color: var(--black, #606060);
+  font-family: 'Anuphan', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.headTable {
+  display: flex;
+  height: 3%;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+.headTablePUandNANO {
+  display: flex;
+  height: 3%;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+.headTablePUandNANO p {
+  color: #515151;
+  text-align: center;
+  font-family: 'Anuphan', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 20px;
+}
+
+.headTable p {
+  color: #515151;
+  text-align: center;
+  font-family: 'Anuphan', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 20px;
+}
+.headTable hr {
+  display: block;
+  flex: 1;
+  height: 1px;
+  background-color: #d1d1d1;
+  margin: 15px 0;
+}
+.headTablePUandNANO hr {
+  display: block;
+  flex: 1;
+  height: 1px;
+  background-color: #d1d1d1;
+  margin: 15px 0;
+}
+.priceShow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.priceShow .carprice {
+  width: 100%;
+  padding-left: 0px;
+}
+.priceShow .carprice p {
+  color: #115725;
+  font-family: 'Anuphan', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 15px;
+}
+.priceShow .carprice span {
+  color: #515151;
+  font-family: 'Anuphan', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.tableLoan {
+  width: 100%;
+  margin-bottom: 70px;
+}
+.tableLoanPUandNANO {
+  width: 100%;
+  margin-bottom: 70px;
+}
+.css-h56xu3-MuiTableContainer-root {
+  width: 100%;
+  overflow-x: auto;
+  max-height: 650px;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .priceShow {
+    margin-top: 10px;
+  }
+  .priceShow .carprice p {
+    font-size: 13px;
+  }
+  .priceShow .carprice span {
+    font-size: 14px;
+  }
+  .headTable p {
+    color: #1f6734;
+    text-align: center;
+    font-family: 'Anuphan', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 -3px;
+  }
+  .headTable hr {
+    display: block;
+    flex: 1 1;
+    height: 3px;
+    border: 10px;
+    background-color: #1f6734;
+    margin: 15px 22px;
+  }
+  .headTablePUandNANO p {
+    color: #1f6734;
+    text-align: center;
+    font-family: 'Anuphan', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 -3px;
+  }
+  .headTablePUandNANO hr {
+    display: block;
+    flex: 1 1;
+    height: 3px;
+    border: 10px;
+    background-color: #1f6734;
+    margin: 15px 22px;
+  }
+  .tableLoan {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .tableLoanPUandNANO {
+    width: 99%;
+    margin-left: 0px;
+  }
+  .css-h56xu3-MuiTableContainer-root {
+    width: 100%;
+    overflow-x: auto;
+    max-height: 650px;
+    border-radius: 10px;
+  }
+  .headTablePUandNANO {
+    display: flex;
+    height: 3%;
+    width: 110%;
+    margin-left: -18px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .buttonCalTable {
+    font-size: 14px;
+  }
+  .controltable .css-dwuj3p-MuiTableCell-root:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 999;
+  }
+  .controltablecell .css-1yhpg23-MuiTableCell-root:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 99;
+    background-color: #fff;
+  }
+}

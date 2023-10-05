@@ -1,0 +1,2030 @@
+.controlForm {
+  display: flex;
+  justify-content: center;
+}
+.FromHp {
+  width: 75rem;
+  height: 660px;
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+h1 {
+  color: #115725;
+  text-align: center;
+  font-family: "Chonburi", cursive;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  display: block;
+  margin-block-start: 20px;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h2 {
+  color: #2a693c;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Anuphan", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  margin-block-start: 10px;
+  margin-block-end: 20px;
+}
+h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.771px;
+  display: block;
+  margin-block-start: 4px;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.controlinputdata {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+label {
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  color: #757575;
+  font-family: "Anuphan", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inputdata {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #e6ebe7;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 697px;
+  flex-direction: column;
+  margin-right: 2px;
+}
+.inputdata .ant-form label {
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  width: 320px;
+}
+.inputdata a {
+  text-align: center;
+  display: flow;
+  margin-top: 15px;
+  color: #126a38;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.inputdata Button {
+  text-align: center;
+  display: flex;
+  margin-top: 15px;
+  color: #126a38;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  margin-inline: 83px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.ant-btn-link:not(:disabled):hover {
+  color: #1db65f;
+}
+.inputdata .ant-form-item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  width: 320px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  vertical-align: top;
+}
+.inputdatamoney {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #e6ebe7;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 697px;
+  flex-direction: column;
+  margin-left: 2px;
+}
+.inputdatamoney .ant-input-number-group-wrapper {
+  display: inline-block;
+  text-align: start;
+  vertical-align: top;
+  width: 320px;
+}
+.inputdatamoney .ant-form-item {
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  margin-bottom: 0px;
+  vertical-align: top;
+}
+.inputdatamoney .ant-form-item .ant-form-item-control {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-content: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /* margin-right: 65px; */
+}
+.inputdatamoney .ant-form-item .ant-form-item-control {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-content: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /* margin-right: 65px; */
+}
+.inputdatamoney .ant-form {
+  width: 320px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.inputdata
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 41px;
+  padding: 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 320px;
+}
+.inputdatamoney
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 41px;
+  padding: 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 264px;
+}
+.inputdatamoney
+  .select-round-cardoc
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 41px;
+  padding: 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 250px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 41px;
+  padding: 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 320px;
+}
+.ant-select-single .ant-select-selector {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  display: flex;
+  border-radius: 0px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ant-input-number-disabled .ant-input-number-input,
+.ant-input-number-readonly .ant-input-number-input {
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #fff;
+  background: #eaeaea;
+}
+
+.ant-input-number {
+  height: 41px;
+  font-size: 20px;
+}
+.ant-input-number-disabled .ant-input-number-input,
+.ant-input-number-readonly .ant-input-number-input {
+  color: #515151;
+  padding: 0 29px;
+  text-align: right;
+  height: 41px;
+  font-style: normal;
+  font-family: "Anuphan", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 16px;
+}
+.ant-input-number-disabled,
+.ant-input-number[disabled] {
+  color: none;
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.ant-picker .ant-picker-input > input {
+  display: inline-block;
+  width: 100%;
+  font-family: "Anuphan", sans-serif;
+  color: #515151;
+  font-size: 16px;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 0;
+  transition: all 0.2s;
+  flex: auto;
+  height: auto;
+  background: #eaeaea;
+  border: 0;
+}
+.ant-input-number-group-wrapper
+  .ant-input-number-wrapper-disabled
+  > .ant-input-number-group-addon {
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #fff;
+  background: #eaeaea;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 1;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ant-input-number-group .ant-input-number-group-addon {
+  position: relative;
+  padding: 0 11px;
+  text-align: center;
+  background: #eaeaea;
+  border: 1px solid #d9d9d9;
+  border-radius: 0px 10px 10px 0px;
+  line-height: 1;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ant-form-item .ant-form-item-control {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-content: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: center;
+}
+.ant-input-number-affix-wrapper input.ant-input-number-input {
+  margin-top: 4px;
+  padding: 0 29px;
+  text-align: right;
+  color: #515151;
+  text-align: right;
+  font-style: normal;
+  font-family: "Anuphan", sans-serif;
+  line-height: normal;
+  font-size: 16px;
+}
+.unit-round {
+  /* margin-left: -66px; */
+  /* padding-left: 13px; */
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #d9d9d9;
+  background: #eaeaea;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+}
+.select-round {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.select-round
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.select-round .ant-select .ant-select-arrow {
+  inset-inline-start: 290px;
+}
+.select-round-star {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.select-round-star
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.select-round-star .ant-select .ant-select-arrow {
+  inset-inline-start: 302px;
+}
+.Select-unit-RegistionCarYear {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Select-unit-installpaymentandinterestRate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputdatamoney
+  .Select-unit-RegistionCarYear
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 41px;
+  padding: 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 264px;
+  border-radius: 0px 10px 10px 0px;
+}
+.inputdatamoney
+  .Select-unit-installpaymentandinterestRate
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 41px;
+  padding: 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 264px;
+  border-radius: 10px 0px 0px 10px;
+}
+.inputdatamoney
+  .Select-unit-installpaymentandinterestRate
+  :where(.css-dev-only-do-not-override-12upa3x).ant-form-item
+  .ant-form-item-explain-error {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-block-end: -16px;
+  font-family: Niramit;
+  margin-inline-end: -57px;
+}
+.ant-input-number-group .ant-input-number-affix-wrapper:not(:last-child) {
+  border-radius: 10px 0px 0px 10px;
+}
+.ant-input-number-group > .ant-input-number:last-child,
+.ant-input-number-group .ant-input-number-group-addon:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+.select-round-cardoc
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.select-round .ant-select.ant-select-in-form-item {
+  width: 85%;
+}
+.select-round-star .ant-select.ant-select-in-form-item {
+  width: 83%;
+}
+.select-round-cardoc .ant-select.ant-select-in-form-item {
+  width: 80%;
+}
+.unit-round-start {
+  /* margin-inline-end: 64px;
+  margin-left: -80px; */
+  /* padding: 0 13px; */
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #d9d9d9;
+  background: #eaeaea;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+}
+.unit-round-cardoc {
+  /* margin-inline-end: 57px; */
+  width: 43px;
+  padding: 0 7px;
+  color: rgba(0, 0, 0, 0.88);
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #d9d9d9;
+  background: #eaeaea;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: center;
+}
+.select-round .ant-select-selector {
+  margin-left: 46px;
+}
+.select-round-star .ant-select-selector {
+  margin-left: 60px;
+}
+.select-round-cardoc .ant-select-selector {
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.select-round-cardoc .ant-select .ant-select-arrow {
+  inset-inline-start: 280px;
+}
+.ant-select .ant-select-arrow > *:not(:last-child) {
+  margin-inline-end: -14px;
+}
+.inputdatamoney .ant-form label {
+  font-size: 14px;
+  padding-top: 8px;
+  width: 320px;
+}
+
+.controlinputdata .buttoncal {
+  height: 66px;
+  width: 220px;
+  margin-top: 15px;
+  margin-left: -405px;
+  background-color: #2a693c;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.controlinputdata .ant-btn-primary:disabled {
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: #f0f0f0;
+  background-color: rgb(164, 160, 160);
+  box-shadow: none;
+}
+.controlinputdata .ant-btn-primary:not(:disabled):hover {
+  color: #fff;
+  background-color: #409d5a;
+}
+.ant-form-item .ant-form-item-explain-warning {
+  color: #faad14;
+  font-family: "Anuphan", sans-serif;
+  font-size: 12px;
+  margin-block-end: -16px;
+}
+.select-round-cardoc .ant-form-item .ant-form-item-explain-error {
+  color: #ff4d4f;
+  margin-block-start: 0px;
+  font-family: "Anuphan", sans-serif;
+  font-size: 12px;
+  margin-block-end: -19px;
+}
+.select-round .ant-form-item .ant-form-item-explain-error {
+  margin-right: -50px;
+  color: #ff4d4f;
+  font-family: "Anuphan", sans-serif;
+  margin-block-start: -1px;
+  font-size: 12px;
+  margin-block-end: -19px;
+}
+.select-round-star .ant-form-item .ant-form-item-explain-error {
+  margin-right: -50px;
+  color: #ff4d4f;
+  margin-block-start: 0px;
+  font-size: 12px;
+  margin-block-end: -19px;
+}
+.inputdatamoney .select-round-cardoc .ant-form-item {
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  margin-bottom: 0px;
+  vertical-align: top;
+  width: 250px;
+  /* margin-left: -118px; */
+}
+.inputdatamoney .select-round .ant-form-item {
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  margin-bottom: 0px;
+  vertical-align: top;
+  /* margin-left: 23px; */
+  width: 262.5px;
+}
+.inputdatamoney .select-round-star .ant-form-item {
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  margin-bottom: 0px;
+  vertical-align: top;
+  /* margin-left: 10px; */
+  width: 262.5px;
+}
+.swal2-html-container {
+  font-family: "Anuphan", sans-serif;
+}
+.swal2-confirm {
+  background-color: #3a6147 !important;
+  font-family: "Anuphan", sans-serif;
+}
+.formCard {
+  margin-top: 54px;
+  margin-block-end: 50px;
+  display: flex;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 25rem;
+  padding: 50px 46px 50px 39px;
+}
+.ant-card {
+  margin-left: -98px;
+  width: 540px;
+}
+.ant-card .ant-card-head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 38px;
+  margin-bottom: -1px;
+  padding: 0 24px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #fff;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  background: #1f6734;
+  line-height: 36px;
+}
+.ant-card .ant-card-body {
+  height: 339px;
+  background: #e2ebe5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.ant-card .ant-card-head {
+  background: #115725;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 56px;
+  margin-bottom: -1px;
+  padding: 0 24px;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 8px 8px 0 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.ant-picker {
+  box-sizing: border-box;
+  margin: 0;
+  height: 41px;
+  padding: 4px 11px 4px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+  line-height: 10;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.HeadCard {
+  display: flex;
+  width: 451.565px;
+  height: 63.004px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  justify-content: space-between;
+  margin-block-start: -12px;
+  margin-inline-start: 25px;
+}
+.boxleft {
+  display: flex;
+}
+.boxright {
+  display: flex;
+}
+.boxleft p {
+  margin-block-start: 1px;
+  margin-left: 16px;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.boxright span {
+  color: #515151;
+  text-align: right;
+  font-family: "Anuphan", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 22px;
+  margin-right: 19px;
+}
+.bodycardinstallment {
+  display: flex;
+  margin-top: 10px;
+  width: 450px;
+  height: 236px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #7ca588;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  margin-inline-start: 25px;
+}
+.HeadCard2 {
+  margin-top: 15px;
+  width: 423px;
+  height: 81px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.HeadCard2 p {
+  color: #2a693c;
+  font-family: "Anuphan", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.HeadCard2 span {
+  margin-top: 35px;
+  color: #2a693c;
+  text-align: right;
+  font-family: "Anuphan", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.bodyinstallmentPayment {
+  display: flex;
+  border-radius: 10px;
+  background: #e2ebe5;
+  width: 423px;
+  height: 38.626px;
+  flex-shrink: 0;
+  margin-top: 7px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.bodyinstallmentPayment .boxleft {
+  align-items: flex-end;
+}
+.bodyinstallmentPayment p {
+  color: #444;
+  font-family: "Anuphan", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 6px;
+  margin-left: 13px;
+}
+.bodyinstallmentPayment span {
+  color: #444;
+  text-align: right;
+  font-family: "Anuphan", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-block-start: 3px;
+}
+:where(.css-dev-only-do-not-override-12upa3x).ant-form-item
+  .ant-form-item-explain-error {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-block-end: -16px;
+  margin-right: 6px;
+  font-family: NIramit;
+}
+.bodyinterestrate {
+  display: flex;
+  border-radius: 10px;
+  background: #e2ebe5;
+  width: 423px;
+  height: 38.626px;
+  flex-shrink: 0;
+  margin-top: 7px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.bodyinterestrate p {
+  color: #444;
+  font-family: "Anuphan", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.bodyinterestrate span {
+  color: #444;
+  text-align: right;
+  font-family: "Anuphan", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-block-start: 3px;
+}
+.buttonCalTable {
+  display: flex;
+  margin-top: 2px;
+  color: #fff;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration-line: underline;
+}
+.ant-picker .ant-picker-input,
+.ant-picker .ant-picker-input > input[disabled] {
+  color: #515151;
+  border-color: #eaeaea;
+  opacity: 1;
+}
+.reset {
+  height: 35px;
+  margin-left: -639px;
+  margin-inline-end: -32px;
+  margin-block-end: -16px;
+  margin-block-start: 30px;
+  color: #1f6734;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+.iconspin {
+  margin-left: 0px;
+  width: 45px;
+}
+
+.ant-modal-footer .ant-btn-primary {
+  display: none;
+}
+.ant-btn-default {
+  display: none;
+}
+.ant-btn-default {
+  display: none;
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+.ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  margin-top: 145px;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  height: 663px;
+  padding: 0px;
+}
+.popup {
+  display: flex;
+  background-color: #ffff;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 41.5rem;
+  border-radius: 10px;
+}
+.popupleft {
+  width: 50%;
+  height: 41.5rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.popupright {
+  background: #f1f1f3;
+  width: 50%;
+  height: 41.5rem;
+  border-radius: 0px 10px 10px 0px;
+}
+div button .swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: #1f6734;
+  color: #fff;
+  font-size: 1em;
+}
+.ant-btn-primary:disabled,
+.ant-btn-primary.ant-btn-disabled {
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  box-shadow: none;
+}
+.ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+  height: 40%;
+}
+.ant-select .ant-select-selection-item {
+  color: #515151;
+}
+.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(
+    .ant-pagination-size-changer
+  ):hover
+  .ant-select-selector {
+  border-color: #1f6734;
+}
+.ant-select-dropdown
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #cad8ce;
+}
+.ant-select-dropdown .ant-select-item {
+  position: relative;
+  display: block;
+  min-height: 32px;
+  padding: 5px 12px;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5714285714285714;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 4px;
+}
+.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(
+    .ant-pagination-size-changer
+  ):hover {
+  border-color: #1f6734;
+}
+.ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  background-color: #f0efed;
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-inline-end: 20px;
+}
+.ant-input-number {
+  box-sizing: border-box;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: "Anuphan", sans-serif;
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 10px;
+  transition: all 0.2s;
+  border: 0;
+}
+.ant-picker .ant-picker-clear {
+  display: none;
+  position: absolute;
+  top: 50%;
+  inset-inline-end: 0;
+  color: rgba(0, 0, 0, 0.25);
+  line-height: 1;
+  background: #ffffff;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s, color 0.2s;
+}
+.iconcallender span.anticon.anticon-calendar {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 11px 16px 12px 17px;
+  margin-inline-end: -4px;
+  /* border-radius: 0px 10px 10px 0px; */
+  border-left: 1px solid #ffffff;
+  background: #eaeaea;
+}
+.ant-picker.ant-picker-disabled .ant-picker-suffix {
+  color: #515151;
+}
+.HeadModeldetail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.HeadModeldetail h1 {
+  margin-block-start: 30px;
+  margin-block-end: 0;
+  margin-inline-start: 37px;
+  margin-inline-end: 0;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 7px;
+}
+.HeadModeldetail h2 {
+  margin-block-start: 10px;
+  margin-block-end: 0;
+  margin-inline-start: 35px;
+  margin-inline-end: 0;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 7px;
+}
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-width: 1px;
+  margin: 0 36px 0 36px;
+}
+.popupright h3 {
+  margin-left: 35px;
+  margin-top: 56px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 36px 0 36px;
+}
+.detail h5 {
+  color: #115725;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: inherit;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.detail .descriptiondetail {
+  display: block;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-height: 170px;
+  overflow-y: auto;
+}
+.detail p {
+  display: block;
+  color: #515151;
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.ant-picker.ant-picker-disabled {
+  background: #eaeaea;
+  border-color: #ffffff;
+  cursor: not-allowed;
+  width: 320px;
+}
+.hengimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .FromHp {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+  .select-round-cardoc .ant-select.ant-select-in-form-item {
+    width: 100%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .HeadModeldetail h1 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .HeadModeldetail h2 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .HeadPL h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .controlinputdata {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .ant-image-preview-root .ant-image-preview-img {
+    max-width: 87%;
+  }
+  .inputdata {
+    width: 80%;
+    height: 34rem;
+    margin-right: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #f8f8f8;
+    box-shadow: none;
+  }
+  .inputdatamoney {
+    width: 80%;
+    height: auto;
+    margin-right: 0;
+    background: #e2ebe5;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .inputdatamoney .ant-form {
+    width: 275px;
+  }
+  .inputdata
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 270px;
+  }
+  .inputdata .ant-form-item {
+    box-sizing: border-box;
+    margin: 0px 24px 0px 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: "Anuphan", sans-serif;
+    vertical-align: top;
+    width: 270px;
+    margin-right: 0px;
+  }
+  .inputdatamoney .ant-form-item {
+    width: 275px;
+  }
+  .inputdatamoney .select-round-cardoc .ant-form-item {
+    /* border: 1px solid; */
+    width: 202px;
+  }
+  .inputdatamoney
+    .Select-unit-RegistionCarYear
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    width: 206px;
+  }
+  .unit-round-cardoc {
+    /* margin-inline-end: 176px; */
+    padding: 0 13px;
+    color: rgba(0, 0, 0, 0.88);
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #d9d9d9;
+    background: #eaeaea;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+    font-family: "Anuphan", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 41px;
+  }
+  .inputdatamoney .ant-form-item .ant-form-item-control {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-content: stretch;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+  }
+  .inputdatamoney .ant-form label {
+    font-size: 13px;
+    /* margin-left: 5px; */
+    width: 245px;
+  }
+  .select-round-cardoc .ant-select .ant-select-arrow {
+    inset-inline-start: 180px;
+  }
+  .inputdatamoney
+    .select-round-cardoc
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 202px;
+    /* margin-left: 112px; */
+    border-radius: 0px 10px 10px 0px;
+  }
+  .inputdatamoney .select-round-cardoc .ant-select-single .ant-select-selector {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 16px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: "Anuphan", sans-serif;
+    display: flex;
+    border-radius: 0px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .inputdatamoney .ant-input-number-group-wrapper {
+    display: inline-block;
+    text-align: start;
+    vertical-align: top;
+    width: 275px;
+  }
+  .ant-form-item .ant-form-item-control-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    /* margin-left: -180px; */
+  }
+  .select-round {
+    /* margin-left: 113px; */
+  }
+  .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 217px;
+  }
+  .inputdatamoney
+    .Select-unit-installpaymentandinterestRate
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 217px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .unit-round {
+    /* margin-left: -2px; */
+    width: 57px;
+    padding: 0 13px;
+    border-radius: 0px 10px 10px 0px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .select-round-cardoc {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    width: 275px;
+    /* margin-left: 68px; */
+  }
+  .select-round-star {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /* margin-left: 57px; */
+  }
+  .unit-round-start {
+    margin-inline-end: 0px;
+    /* margin-left: -17px; */
+    padding: 0 5px;
+    border-radius: 0px 10px 10px 0px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .inputdata .ant-form {
+    display: contents;
+  }
+  .inputdatamoney
+    .select-round-star
+    .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 261px;
+  }
+  .inputdatamoney
+    .select-round
+    .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 290px;
+  }
+  .inputdatamoney .select-round-star .ant-form-item {
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: "Anuphan", sans-serif;
+    margin-bottom: 0px;
+    vertical-align: top;
+    /* margin-left: 66px; */
+  }
+  .inputdata .ant-form label {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 265px;
+  }
+  .inputdatamoney
+    .select-round-star
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 226px;
+  }
+
+  .ant-picker.ant-picker-disabled {
+    cursor: not-allowed;
+    width: 275px;
+  }
+  .controlinputdata .buttoncal {
+    height: 50px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    background-color: #2a693c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .reset {
+    height: 35px;
+    margin-left: 0px;
+    margin-inline-end: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 15px;
+    color: #1f6734;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .iconspin {
+    width: 30px;
+  }
+  .ant-card {
+    margin-left: -122px;
+    width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .FromHp {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+  .inputdata .ant-form {
+    width: 270px;
+  }
+  .select-round-cardoc .ant-select.ant-select-in-form-item {
+    width: 65%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .HeadModeldetail h1 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .HeadModeldetail h2 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .HeadPL h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .controlinputdata {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .ant-image-preview-root .ant-image-preview-img {
+    max-width: 87%;
+  }
+  .inputdata {
+    width: 320px;
+    height: auto;
+    margin-right: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #f8f8f8;
+    box-shadow: none;
+  }
+  .inputdatamoney {
+    width: 320px;
+    height: auto;
+    margin-right: 0;
+    background: #e2ebe5;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .inputdata
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 270px;
+  }
+  .inputdata .ant-form-item {
+    box-sizing: border-box;
+    margin: 0px 24px 0px 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: "Anuphan", sans-serif;
+    vertical-align: top;
+    width: 270px;
+    margin-right: 0px;
+  }
+  .unit-round-cardoc {
+    margin-inline-end: 176px;
+    padding: 0 13px;
+    color: rgba(0, 0, 0, 0.88);
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #d9d9d9;
+    background: #eaeaea;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+    font-family: "Anuphan", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .inputdatamoney .ant-form-item .ant-form-item-control {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-content: stretch;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+  }
+  .inputdatamoney .ant-form label {
+    font-size: 14px;
+    margin-left: 5px;
+    width: 260px;
+  }
+  .select-round-cardoc .ant-select .ant-select-arrow {
+    inset-inline-end: 6px;
+  }
+  .inputdatamoney
+    .select-round-cardoc
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 208px;
+    margin-left: 112px;
+    border-radius: 0px 10px 10px 0px;
+  }
+  .inputdatamoney .select-round-cardoc .ant-select-single .ant-select-selector {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 16px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: "Anuphan", sans-serif;
+    display: flex;
+    border-radius: 0px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .inputdatamoney .ant-input-number-group-wrapper {
+    display: inline-block;
+    text-align: start;
+    vertical-align: top;
+    width: 275px;
+  }
+  .ant-form-item .ant-form-item-control-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    margin-left: -180px;
+  }
+  .select-round {
+    margin-left: 113px;
+  }
+  .inputdatamoney
+    .Select-unit-installpaymentandinterestRate
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 220px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 226px;
+  }
+  .inputdatamoney
+    .select-round
+    .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 261px;
+  }
+  .unit-round {
+    padding: 0 13px;
+    border-radius: 0px 10px 10px 0px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 37px;
+  }
+  .select-round-cardoc {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .select-round-star {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-left: 57px;
+  }
+  .unit-round-start {
+    padding: 0 5px;
+    border-radius: 0px 10px 10px 0px;
+    height: 39px;
+    width: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .inputdatamoney
+    .select-round-star
+    .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 261px;
+  }
+  .inputdatamoney
+    .select-round
+    .inputdatamoney
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 290px;
+  }
+  .inputdatamoney .select-round-star .ant-form-item {
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: "Anuphan", sans-serif;
+    margin-bottom: 0px;
+    vertical-align: top;
+    margin-left: 66px;
+  }
+  .inputdata .ant-form label {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    width: 260px;
+  }
+  label {
+  }
+  .inputdatamoney
+    .select-round-star
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 41px;
+    padding: 0 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 226px;
+  }
+  .ant-picker.ant-picker-disabled {
+    background: #eaeaea;
+    border-color: #ffff;
+    cursor: not-allowed;
+    width: 275px;
+  }
+  .controlinputdata .buttoncal {
+    height: 50px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    background-color: #2a693c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .reset {
+    height: 35px;
+    margin-left: 0px;
+    margin-inline-end: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 15px;
+    color: #1f6734;
+    text-align: center;
+    font-family: "Anuphan", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .iconspin {
+    width: 30px;
+  }
+  .ant-modal .ant-modal-content {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+      0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: auto;
+    height: 663px;
+    padding: 0px;
+    margin-top: -140px;
+  }
+  .popup {
+    display: flex;
+    background-color: #ffff;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50rem;
+    border-radius: 10px;
+  }
+  .popupleft {
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .popupright {
+    background: #f1f1f3;
+    width: 100%;
+    height: 55%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .popupright h3 {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 15px 0px 0px 35px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #515151;
+    font-family: "Anuphan", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .detail h5 {
+    font-size: 14px;
+    margin-block-start: 0px;
+    margin-top: 5px;
+  }
+  .inputdata Button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .detail p {
+    display: block;
+    color: #515151;
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .detail .descriptiondetail {
+    display: block;
+    color: #515151;
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-height: 79px;
+    overflow-y: auto;
+  }
+  .ant-form-item .ant-form-item-explain,
+  .ant-form-item .ant-form-item-extra {
+    margin-top: 0px;
+    clear: both;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 9px;
+    line-height: 1.5714285714285714;
+  }
+  .select-round .ant-form-item .ant-form-item-explain-error {
+    margin-top: 1px;
+    margin-right: -44px;
+  }
+  .select-round-star .ant-form-item .ant-form-item-explain-error {
+    margin-top: 1px;
+    margin-right: -44px;
+  }
+  .select-round-cardoc .ant-form-item .ant-form-item-explain-error {
+    margin-top: 1px;
+    margin-right: 3px;
+  }
+  .select-round .ant-select .ant-select-arrow {
+    inset-inline-start: 232px;
+  }
+  .select-round-star .ant-select .ant-select-arrow {
+    inset-inline-start: 245px;
+  }
+  .formCard {
+    margin-top: 54px;
+    margin-block-end: 50px;
+    display: flex;
+    border-radius: 0px;
+    background: #e5e5e5;
+    box-shadow: none;
+    height: 25rem;
+    padding: 10px 0px 10px 0px;
+  }
+  .ant-card {
+    width: 78%;
+    margin-left: -30px;
+  }
+  .ant-card .ant-card-head {
+    font-size: 17px;
+  }
+  .HeadCard {
+    display: flex;
+    width: 100%;
+    height: 13%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    justify-content: space-between;
+    margin-block-start: -12px;
+    margin-inline-start: 0px;
+  }
+  .boxleft p {
+    margin-block-start: 1px;
+    margin-left: 16px;
+    color: #515151;
+    font-family: "Anuphan", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .boxright span {
+    color: #515151;
+    text-align: right;
+    font-family: "Anuphan", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+
+  .bodycardinstallment {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 89%;
+    margin-inline-start: 0px;
+  }
+  .HeadCard2 {
+    display: flex;
+    width: 90%;
+    height: 81px;
+    flex-direction: column;
+  }
+  .HeadCard2 .boxright {
+    display: flex;
+    justify-content: flex-end;
+    margin-block-start: -13px;
+  }
+  .HeadCard2 p {
+    color: #2a693c;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .HeadCard2 span {
+    color: #2a693c;
+    font-size: 22px;
+  }
+  .bodyinstallmentPayment {
+    width: 90%;
+    height: 16%;
+  }
+  .bodyinstallmentPayment p {
+    margin-left: 13px;
+  }
+  .bodyinstallmentPayment span {
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  .bodyinterestrate {
+    width: 90%;
+    height: 16%;
+  }
+  .bodyinterestrate p {
+    margin-left: 13px;
+  }
+  .bodyinterestrate span {
+    font-size: 16px;
+  }
+  .bodyinstallmentPayment .boxleft {
+    margin-top: 50px;
+  }
+  .boxfooter {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  }
+}

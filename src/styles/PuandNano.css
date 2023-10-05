@@ -1,0 +1,486 @@
+.FromHpPuandNano {
+  width: 75rem;
+  height: 311px;
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.controlinputdataPUandNano {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inputdataPuandNao {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #e6ebe7;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 350px;
+  flex-direction: column;
+  margin-right: 2px;
+}
+.inputdatamoneyPuandNao {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #e6ebe7;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 350px;
+  flex-direction: column;
+  margin-right: 2px;
+}
+.inputdata .ant-form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: Chonburi;
+  margin-top: 26px;
+  width: 320px;
+}
+.inputdatamoney .ant-form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: Chonburi;
+  margin-top: 26px;
+}
+.inputdataPuandNao
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  width: 263px;
+  border-radius: 10px 0px 0px 10px;
+  height: 43px;
+}
+.inputdatamoneyPuandNao
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  width: 263px;
+  border-radius: 10px 0px 0px 10px;
+}
+.inputdataPuandNao .ant-form label {
+  font-size: 14px;
+}
+.inputdatamoneyPuandNao .ant-form label {
+  font-size: 14px;
+}
+
+.inputdataPuandNao
+  .controlFormmoney
+  .controinput
+  .ant-input-number-group-wrapper {
+  display: inline-block;
+  text-align: start;
+  vertical-align: top;
+  width: 320px;
+}
+.resetPuandNano {
+  height: 35px;
+  margin-left: -639px;
+  margin-inline-end: -32px;
+  margin-block-end: -16px;
+  margin-block-start: 10px;
+  color: #1f6734;
+  text-align: center;
+  font-family: Chonburi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+} /*.inputdata .select-round{
+    width: 320px;
+}*/
+.inputdataPuandNao .unit-round {
+  height: 41px;
+  margin-left: -1px;
+}
+.inputdataPuandNao .controlFormmoney {
+  margin-top: 26px;
+}
+.inputdatamoneyPuandNao .controlFormmoney {
+  margin-top: 26px;
+}
+.formCardPU {
+  margin-top: 54px;
+  margin-block-end: 50px;
+  display: flex;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 25rem;
+  padding: 50px 46px 50px 39px;
+}
+.formCardNANO {
+  margin-top: 54px;
+  margin-block-end: 50px;
+  display: flex;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 25rem;
+  padding: 50px 46px 50px 39px;
+}
+.controlinputdataPUandNano .buttoncal {
+  height: 66px;
+  width: 220px;
+  margin-top: 15px;
+  margin-left: -405px;
+  background-color: #2a693c;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Chonburi;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+@media (max-width: 1200px) {
+  .FromHpPuandNano {
+    width: 53rem;
+    height: 573px;
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .controlinputdataPUandNano {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .inputdataPuandNao {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #f8f8f8;
+    box-shadow: none;
+    width: 100%;
+    height: 230px;
+    flex-direction: column;
+    margin-right: 2px;
+  }
+  .inputdatamoneyPuandNao .select-round-star .ant-select .ant-select-arrow {
+    inset-inline-start: 270px;
+  }
+  .inputdatamoneyPuandNao {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #e6ebe7;
+    box-shadow: none;
+    width: 100%;
+    height: 350px;
+    flex-direction: column;
+    margin-right: 2px;
+    margin-top: 10px;
+  }
+  .inputdata .ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: Chonburi;
+    margin-top: 26px;
+  }
+  .inputdatamoney .ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: Chonburi;
+    margin-top: 26px;
+  }
+  .inputdataPuandNao
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    width: 250px;
+  }
+  .inputdatamoneyPuandNao
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    width: 250px;
+  }
+  .inputdatamoneyPuandNao .ant-picker.ant-picker-disabled {
+    cursor: not-allowed;
+    width: 305px;
+  }
+  .inputdataPuandNao .ant-form label {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .inputdatamoneyPuandNao .ant-form label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .inputdataPuandNao .select-round {
+    margin-left: 135px;
+  }
+  .inputdatamoneyPuandNao .select-round-star {
+    margin-left: 123px;
+  }
+  .inputdataPuandNao .select-round .ant-select .ant-select-arrow {
+    inset-inline-start: 255px;
+  }
+  .inputdataPuandNao
+    .controlFormmoney
+    .controinput
+    .ant-input-number-group-wrapper {
+    display: inline-block;
+    text-align: start;
+    vertical-align: top;
+    width: 300px;
+  }
+  .resetPuandNano {
+    height: 35px;
+    margin-left: -32px;
+    margin-inline-end: -32px;
+    margin-block-end: 0px;
+    margin-block-start: 10px;
+    color: #1f6734;
+    text-align: center;
+    font-family: Chonburi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .inputdataPuandNao .unit-round {
+    margin-left: -1px;
+    width: 28px;
+  }
+  .inputdatamoneyPuandNao .unit-round-start {
+    margin-inline-end: 0px;
+    margin-left: 0px;
+  }
+  .inputdataPuandNao .controlFormmoney {
+    margin-top: 26px;
+  }
+  .inputdatamoneyPuandNao .controlFormmoney {
+    margin-top: 26px;
+  }
+  .formCardNANO .ant-card {
+    width: 74%;
+    margin-left: -153px;
+  }
+  .formCardPU .ant-card {
+    width: 73%;
+    margin-left: -145px;
+  }
+  .controlinputdataPUandNano .buttoncal {
+    height: 50px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    background-color: #2a693c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Chonburi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+@media (max-width: 600px) {
+  .FromHpPuandNano {
+    width: 22rem;
+    height: 573px;
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+
+  .inputdataPuandNao {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #f8f8f8;
+    box-shadow: none;
+    width: 100%;
+    height: 230px;
+    flex-direction: column;
+    /* margin-right: 2px; */
+  }
+  .inputdatamoneyPuandNao .select-round-star .ant-select .ant-select-arrow {
+    inset-inline-start: 270px;
+  }
+  .inputdatamoneyPuandNao {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #e6ebe7;
+    box-shadow: none;
+    width: 100%;
+    height: 350px;
+    flex-direction: column;
+    /* margin-right: 2px;
+    margin-top: 10px; */
+  }
+  .inputdata .ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: Chonburi;
+    margin-top: 26px;
+  }
+  .inputdatamoney .ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: Chonburi;
+    margin-top: 26px;
+  }
+  .inputdataPuandNao
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    width: 231px;
+  }
+  .inputdatamoneyPuandNao
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    width: 231px;
+  }
+  .inputdatamoneyPuandNao .ant-picker.ant-picker-disabled {
+    cursor: not-allowed;
+    width: 286px;
+  }
+  .inputdataPuandNao .ant-form label {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .inputdatamoneyPuandNao .ant-form label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .inputdataPuandNao .select-round {
+    /* margin-left: 135px; */
+  }
+  .inputdatamoneyPuandNao .select-round-star {
+    /* margin-left: 123px; */
+  }
+  .inputdataPuandNao .select-round .ant-select .ant-select-arrow {
+    inset-inline-start: 255px;
+  }
+  .inputdataPuandNao
+    .controlFormmoney
+    .controinput
+    .ant-input-number-group-wrapper {
+    display: inline-block;
+    text-align: start;
+    vertical-align: top;
+    width: 280px;
+  }
+  .resetPuandNano {
+    height: 35px;
+    margin-left: -32px;
+    margin-inline-end: -32px;
+    margin-block-end: 0px;
+    margin-block-start: 10px;
+    color: #1f6734;
+    text-align: center;
+    font-family: Chonburi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .inputdataPuandNao .unit-round {
+    margin-left: -1px;
+  }
+  .inputdatamoneyPuandNao .unit-round-start {
+    margin-inline-end: 0px;
+    width: 43px;
+    /* margin-left: -16px; */
+  }
+  .inputdataPuandNao .controlFormmoney {
+    margin-top: 26px;
+  }
+  .inputdatamoneyPuandNao .controlFormmoney {
+    margin-top: 26px;
+  }
+  .formCardPU .ant-card {
+    width: 80%;
+    margin-left: -96px;
+  }
+  .formCardPU .swiper-slide {
+    margin-left: 0px;
+  }
+  .formCardNANO .ant-card {
+    width: 78%;
+    margin-left: -13px;
+  }
+  .formCardPU {
+    margin-top: 54px;
+    margin-block-end: 50px;
+    display: flex;
+    border-radius: 0px;
+    background: #e5e5e5;
+    box-shadow: none;
+    height: 25rem;
+    padding: 10px 0px 10px 0px;
+  }
+  .formCardNANO {
+    margin-top: 54px;
+    margin-block-end: 50px;
+    display: flex;
+    border-radius: 0px;
+    background: #e5e5e5;
+    box-shadow: none;
+    height: 25rem;
+    width: 121%;
+    margin-left: -44px;
+    padding: 10px 0px 10px 0px;
+  }
+  .formCardPU {
+    margin-top: 54px;
+    margin-block-end: 50px;
+    display: flex;
+    border-radius: 0px;
+    background: #e5e5e5;
+    box-shadow: none;
+    height: 25rem;
+    width: 121%;
+    margin-left: -44px;
+    padding: 10px 0px 10px 0px;
+  }
+  .controlinputdataPUandNano .ant-form-item .ant-form-item-control-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    margin-left: -0px;
+  }
+}
