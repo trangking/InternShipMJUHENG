@@ -12,7 +12,6 @@ const useFuncitionCal = () => {
   const { needMoney, setneedMoney } = useContext(MyContextCal);
   const { interestrate, setinterestrate } = useContext(MyContextCal);
   const { setprice } = useContext(MyContext);
-
   const { validateStatus, setValidateStatus } = useContext(MyContextCal);
   const { validateStatusSelerter, setvalidateStatusSelerter } =
     useContext(MyContextCal);
@@ -32,7 +31,7 @@ const useFuncitionCal = () => {
 
   const { RegistrationCarYearID, setRegistrationCarYearID } =
     useContext(MyContextCal);
-  const { nowDay, setnowDay } = useContext(MyContextCal);
+
   const { helpFormSelecterinterestrate, sethelpFormSelecterinterestrate } =
     useContext(MyContextCal);
   const { cardShow, setcardShow } = useContext(MyContextCal);
