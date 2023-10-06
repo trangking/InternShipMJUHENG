@@ -12,7 +12,7 @@
   border-left: 1px solid #515151;
   color: #fff;
   text-align: center;
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@
   border: 1px solid #5b5b5b;
   background: rgba(255, 255, 255, 0);
   color: var(--black, #606060);
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +55,7 @@
 .headTablePUandNANO p {
   color: #515151;
   text-align: center;
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@
 .headTable p {
   color: #515151;
   text-align: center;
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -77,7 +77,7 @@
   display: block;
   flex: 1;
   height: 1px;
-  background-color: #d1d1d1;
+  background-color: #2a693c;
   margin: 15px 0;
 }
 .headTablePUandNANO hr {
@@ -101,14 +101,14 @@
 }
 .priceShow .carprice p {
   color: #115725;
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   font-size: 16px;
   font-style: normal;
   margin-top: 15px;
 }
 .priceShow .carprice span {
   color: #515151;
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -141,7 +141,7 @@
   .headTable p {
     color: #1f6734;
     text-align: center;
-    font-family: 'Anuphan', sans-serif;
+    font-family: "Anuphan", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -159,7 +159,7 @@
   .headTablePUandNANO p {
     color: #1f6734;
     text-align: center;
-    font-family: 'Anuphan', sans-serif;
+    font-family: "Anuphan", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

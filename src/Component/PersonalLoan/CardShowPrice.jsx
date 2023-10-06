@@ -125,7 +125,7 @@ function Cardpricelist({
                           <span>{item.interestRate}%</span>
                         </div>
                       </div>
-                      <Button
+                      {/* <Button
                         type="link"
                         className="buttonCalTable"
                         ref={calculateButtonRef}
@@ -134,7 +134,7 @@ function Cardpricelist({
                         }
                       >
                         ตารางภาระหนี้
-                      </Button>
+                      </Button> */}
                     </div>
                   </Card>
                 </SwiperSlide>
