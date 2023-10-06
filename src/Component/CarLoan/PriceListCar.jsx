@@ -431,6 +431,7 @@ const SelectorHP = () => {
             </Modal>
           </Form>
         </div>
+        <hr></hr>
         <div className="inputdatamoney">
           <Form form={form}>
             <label>ราคากลาง</label>
@@ -638,7 +639,7 @@ const SelectorHP = () => {
             ContractTypeCode={ContractTypeCode}
             index={index}
             dateDayAmount={lockedDate}
-            nowDay = {nowDay}
+            nowDay={nowDay}
           />
         )}
       </Suspense>

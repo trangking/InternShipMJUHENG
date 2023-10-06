@@ -10,6 +10,17 @@
   padding-bottom: 2%;
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #e2ebe5;
+}
+.FromHp hr {
+  margin-top: 20px;
+  height: 30rem;
+  border: 1px solid white;
+}
+:where(.css-dev-only-do-not-override-12upa3x).ant-image .ant-image-img {
+  width: 100%;
+  height: 38rem;
+  vertical-align: middle;
 }
 h1 {
   color: #115725;
@@ -97,8 +108,6 @@ label {
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background: #e6ebe7;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 697px;
   flex-direction: column;
@@ -155,8 +164,6 @@ label {
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background: #e6ebe7;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 697px;
   flex-direction: column;
@@ -207,6 +214,14 @@ label {
   border-radius: 10px;
   border: 1px solid #d9d9d9;
   background: #fff;
+}
+.ant-select-disabled:where(
+    .css-dev-only-do-not-override-12upa3x
+  ).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  color: rgba(0, 0, 0, 0.25);
+  background: #eaeaea;
+  cursor: not-allowed;
 }
 .inputdata
   .ant-select-single:not(.ant-select-customize-input)
@@ -541,8 +556,8 @@ label {
 .controlinputdata .buttoncal {
   height: 66px;
   width: 220px;
-  margin-top: 15px;
-  margin-left: -405px;
+  margin-top: 25px;
+  margin-left: -424px;
   background-color: #2a693c;
   color: white;
   border-radius: 10px;
@@ -886,7 +901,7 @@ label {
 }
 .reset {
   height: 35px;
-  margin-left: -639px;
+  margin-left: -676px;
   margin-inline-end: -32px;
   margin-block-end: -16px;
   margin-block-start: 30px;
@@ -1170,6 +1185,10 @@ hr {
     height: auto;
     padding-bottom: 0;
     box-shadow: none;
+    background: none;
+  }
+  .FromHp hr {
+    display: none;
   }
   .select-round-cardoc .ant-select.ant-select-in-form-item {
     width: 100%;
@@ -1330,10 +1349,6 @@ hr {
     display: flex;
     align-items: center;
     min-height: 32px;
-    /* margin-left: -180px; */
-  }
-  .select-round {
-    /* margin-left: 113px; */
   }
   .inputdatamoney
     .ant-select-single:not(.ant-select-customize-input)
@@ -1500,6 +1515,10 @@ hr {
     height: auto;
     padding-bottom: 0;
     box-shadow: none;
+    background: none;
+  }
+  .FromHp hr {
+    display: none;
   }
   .inputdata .ant-form {
     width: 270px;

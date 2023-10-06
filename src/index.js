@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 
 import reportWebVitals from "./reportWebVitals";
-import Carloans from "./Component/CarLoan/HirePurchase";
+import Carloans from "./Component/CarLoan/BodyPage";
 
 import PersonalLoan from "./Component/PersonalLoan/PagePesonel";
 

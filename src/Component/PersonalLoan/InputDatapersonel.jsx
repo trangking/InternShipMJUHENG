@@ -266,6 +266,7 @@ const SelectorPU = () => {
             </div>
           </Form>
         </div>
+        <hr></hr>
         <div className="inputdatamoneyPuandNao">
           <Form form={form}>
             <div className="controlFormmoney">
